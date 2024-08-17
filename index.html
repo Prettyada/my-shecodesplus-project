@@ -3,39 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather Application</title>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1>Paris</h1>
-      <div>
-        <p>
-          Saturday 13:40, moderate rain <br />
-          Humidity: 95%, Wind: 1.54km/h
-        </p>
-      </div>
-      <div>⛅20°C</div>
-    </main>
+    <div class="app-body">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Prettyada" target="_blank">Ajor Favour</a> ,
-      is
-      <a
-        href="https://github.com/Prettyada/my-shecodesplus-project"
-        target="_blank"
-        >open sourced on Github</a
-      >
-      and
-      <a href="https://shescodesplus-project.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <main>
+        <h1>Paris</h1>
+        <div>
+          <p>
+            Saturday 13:40, moderate rain <br />
+            Humidity: 95%, Wind: 1.54km/h
+          </p>
+        </div>
+        <div>⛅20°C</div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Prettyada" target="_blank">Ajor Favour</a> ,
+        is
+        <a
+          href="https://github.com/Prettyada/my-shecodesplus-project"
+          target="_blank"
+          >open sourced on Github</a
+        >
+        and
+        <a href="https://shescodesplus-project.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
